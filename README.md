@@ -12,6 +12,10 @@ clang-format : niesamowicie pomocne narzędzie do indentacji kodu. Reguluje wci�
 W przypadku ubuntu instalacja sprowadza się do:
  sudo apt-get install clang-format
  
+ Integracja clang-format z Eclipse:
+Help-> Eclipse Marketpalace -> wyszukujemy CppStyle i instalujemy. Ctrl+Shift+F formatuje nam kod. Clang opiera się na pliku konfiguracyjnym.clang-format, przykładowy jest w tym repozytorium.
+Klikajac prawym przyciskiem na projekt wybieramy Project Properties, z lewej zakładka CppStyle. Polecam włączyć formatowanie clang przy zapisaniu.
+ 
  CMake: Podobno Państwo to znają, zresztą plik CMakeLists.txt powinien być samowyjaśniający. Dodam tylko, że istnieją takie użyteczne narzędzia jak ccmake(konsola) czy cmake-gui, które umożliwiają przejrzenie wszystkich opcji cmake i edytowanie ich.  Przydatne gdy konfigurujemy duży projekt szczególnie gdy wymaga on  innych bibliotek.
  
  Pomocne materiały:
