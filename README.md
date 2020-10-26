@@ -1,5 +1,6 @@
 # JINP1
 Projekt demonstrujący kolejne elementy języka C++, rozbudowywany w czasie trwania ćwiczeń
+Webowy interface GitHub psuje formatowanie, widać to w ostatnim akapicie. Polecam wyświetlać surowy plik readme.
 
 Ćwiczenia 26.10.2020:
 
