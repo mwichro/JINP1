@@ -8,6 +8,10 @@
 #ifndef INCLUDE_TEST_LIB_H_
 #define INCLUDE_TEST_LIB_H_
 
+#include <iostream>
+
+static double PI_razy_dwa;
+
 namespace Tools
 {
   double
@@ -24,11 +28,21 @@ odejmowanie(T a, T b);
 
 class A
 {
+public:
   A();
+  A(int k);
+  A(int b, int c);
+  A(const A &inne_A);
+
+  ~A();
+
   void
   b();
 
-  const int a;
+private:
+  const int numer;
+  const int numer_2;
+  char *    litera;
 };
 
 #endif /* INCLUDE_TEST_LIB_H_ */
