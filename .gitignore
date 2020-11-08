@@ -5,6 +5,11 @@
 /.cproject
 /.project
 qtcreator/
+CMakeCache.txt
+CMakeFiles/
+.cproject
+Makefile
+cmake_install.cmake
 
 # visual studio code
 /.vscode
