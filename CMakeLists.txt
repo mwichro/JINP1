@@ -21,4 +21,13 @@ add_executable(${TARGET}  source/main.cc)
 target_link_libraries(${TARGET}  testLib)
 
 
+if(EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/tests )
+    enable_testing()
+    find_package(GTest REQUIRED)
+    include_directories(${GTEST_INCLUDE_DIR})
+    ADD_SUBDIRECTORY(tests)
+endif()
+
+
+
 
