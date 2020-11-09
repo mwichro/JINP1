@@ -12,23 +12,20 @@
 
 static double PI_razy_dwa;
 
-namespace Tools
-{
-  double
-  dodawanie_d(double a, double b);
-
-  template <class T>
-  T
-  dodawanie(T a, T b);
-} // namespace Tools
+namespace Tools {
+double dodawanie_d(double a, double b);
 
 template <class T>
-T
-odejmowanie(T a, T b);
+T dodawanie(T a, T b);
 
-class A
-{
-public:
+double dodaj(double a, double b) { return a + b; }
+}  // namespace Tools
+
+template <class T>
+T odejmowanie(T a, T b);
+
+class A {
+ public:
   A();
   A(int k);
   A(int b, int c);
@@ -36,13 +33,12 @@ public:
 
   ~A();
 
-  void
-  b();
+  void b();
 
-private:
+ private:
   const int numer;
   const int numer_2;
-  char *    litera;
+  char *litera;
 };
 
 #endif /* INCLUDE_TEST_LIB_H_ */
