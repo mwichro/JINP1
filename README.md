@@ -2,6 +2,13 @@
 Projekt demonstrujący kolejne elementy języka C++, rozbudowywany w czasie trwania ćwiczeń
 Webowy interface GitHub psuje formatowanie, widać to w ostatnim akapicie. Polecam wyświetlać surowy plik readme.
 
+Ćwiczenia 16.11.2020
+Uzupełnienia:
+https://infotraining.bitbucket.io/cpp-11/move.html
+Operator konwersji: http://cpp0x.pl/dokumentacja/standard-C++/Przeciazanie-operatorow/operator-konwersji/1661
+Przeciążanie opertatora = https://www.learncpp.com/cpp-tutorial/9-14-overloading-the-assignment-operator/
++ pod koniec zajęc (tzn chwilę po 14:00)  pojawiło się słowo mutable, jest demonstracja w implementacji metody klasy a 
+
 Ćwiczenia 26.10.2020:
 
 Użyteczne narzędzia:
