@@ -1,4 +1,6 @@
 # JINP1
+![](https://github.com/mwichro/JINP1/blob/main/image_2020-11-19_030127.png)
+
 Projekt demonstrujący kolejne elementy języka C++, rozbudowywany w czasie trwania ćwiczeń
 Webowy interface GitHub psuje formatowanie, widać to w ostatnim akapicie. Polecam wyświetlać surowy plik readme.
 
