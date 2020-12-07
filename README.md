@@ -1,14 +1,34 @@
 # JINP1
 7.12:
+PROSZE SPRAWDZIĆ PLIK constexpr.cc (kompilacja c++17)
 
 template<typename T>
 constexpr B<T> ex(C<T> a);
- 
- 
+  
 https://en.cppreference.com/w/cpp/container/array 
 https://mmore500.com/2019/07/07/cpp-compile-loop.html
 https://stackoverflow.com/questions/48913092/constexpr-in-for-statement
 https://nilsdeppe.com/posts/for-constexpr
+
+(Jak zwykle) parę rzeczy przekręciłem na zajęciach. 
+1) std::array Państwa wiernym przyjacielem. Po przemyśleniu jednak da się na nim zbudować program.
+https://en.cppreference.com/w/cpp/container/array
+
+2)Compile-time for:
+https://mmore500.com/2019/07/07/cpp-compile-loop.html
+https://stackoverflow.com/questions/48913092/constexpr-in-for-statement
+https://nilsdeppe.com/posts/for-constexpr
+
+3) Ja wyciągnąć liczbę parametrów template:
+sizeof...
+https://en.cppreference.com/w/cpp/language/sizeof...
+
+Inne:
+
+https://stackoverflow.com/questions/19019252/create-n-element-constexpr-array-in-c11
+https://stackoverflow.com/questions/41618576/what-is-allowed-in-a-constexpr-function
+
+
 
 
 ![](https://github.com/mwichro/JINP1/blob/main/image_2020-11-19_030127.png)
