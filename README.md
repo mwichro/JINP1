@@ -1,4 +1,16 @@
 # JINP1
+7.12:
+
+template<typename T>
+constexpr B<T> ex(C<T> a);
+ 
+ 
+https://en.cppreference.com/w/cpp/container/array 
+https://mmore500.com/2019/07/07/cpp-compile-loop.html
+https://stackoverflow.com/questions/48913092/constexpr-in-for-statement
+https://nilsdeppe.com/posts/for-constexpr
+
+
 ![](https://github.com/mwichro/JINP1/blob/main/image_2020-11-19_030127.png)
 
 Projekt demonstrujący kolejne elementy języka C++, rozbudowywany w czasie trwania ćwiczeń
